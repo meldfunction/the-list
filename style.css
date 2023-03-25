@@ -5,8 +5,10 @@ body {
   font-family: "Georgia", serif;
   font-size: 18px;
   line-height: 1.6;
-  margin: 0;
+  margin: 2em;
   padding: 0;
+  text-align: center;
+
 }
 
 /* Headings */
