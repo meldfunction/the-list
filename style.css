@@ -1,133 +1,75 @@
 /* Body */
 body {
-  background-color: #F9F9F9;
-  color: #333;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center; /* Add this line */
+  background-color: #F5F5F5;
+  font-family: "Georgia", serif;
 }
-
-
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  color: #303030;
-  font-weight: 500;
+  color: #D2691E;
+  font-weight: 700;
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 3em;
+  text-align: center;
 }
 
 h2 {
   font-size: 2em;
+  margin-top: 2em;
 }
 
 h3 {
   font-size: 1.5em;
+  margin-top: 1.5em;
 }
 
 /* Links */
 a {
-  color: #FFD966;
+  color: #D2691E;
   text-decoration: none;
 }
 
 a:hover {
-  color: #FFB347;
+  color: #B22222;
 }
 
-/* Buttons */
-button {
-  background-color: #FFD966;
-  border: none;
-  color: #333;
-  cursor: pointer;
+/* Menu items */
+.menu-item {
+  border-bottom: 1px solid #D2691E;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.menu-item h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.menu-item p {
   font-size: 1.2em;
-  font-weight: 500;
-  padding: 0.5em 1em;
-  text-transform: uppercase;
+  margin-bottom: 1.5em;
 }
 
-button:hover {
-  background-color: #FFB347;
-}
-
-/* Forms */
-input[type="text"],
-input[type="email"],
-textarea {
-  background-color: #FDFDFD;
-  border: none;
-  border-radius: 3px;
-  color: #333;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 1em;
-  margin-bottom: 1em;
-  padding: 0.5em;
-  width: 100%;
-}
-
-input[type="submit"] {
-  background-color: #FFD966;
-  border: none;
-  border-radius: 3px;
-  color: #333;
-  cursor: pointer;
-  font-size: 1.2em;
-  font-weight: 500;
-  padding: 0.5em 1em;
-  text-transform: uppercase;
-}
-
-input[type="submit"]:hover {
-  background-color: #FFB347;
-}
-
-/* Tables */
-table {
-  border-collapse: collapse;
-  margin-bottom: 1em;
-  width: 100%;
-}
-
-th, td {
-  border: 1px solid #ddd;
-  padding: 0.5em;
-  text-align: left;
-}
-
-th {
-  background-color: #FFD966;
-  color: #333;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-
-/* Alerts */
-.alert {
-  background-color: #FFB347;
-  color: #fff;
-  font-weight: 500;
-  padding: 1em;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.alert.success {
-  background-color: #66BB6A;
-}
-
-.alert.error {
-  background-color: #EF5350;
+.menu-item .price {
+  color: #B22222;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 1em;
 }
 
 /* Footer */
 footer {
-  background-color: #303030;
+  background-color: #D2691E;
   color: #fff;
   font-size: 0.8em;
   padding: 1em;
